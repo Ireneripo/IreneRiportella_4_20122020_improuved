@@ -90,10 +90,10 @@ a:hover {
   right: 0;
 }
 
-.texture-paper::before {
+/* .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
   background-attachment: fixed;
@@ -269,9 +269,13 @@ a:hover {
 }
 
 .voffset-lg {
-  margin-top: 80px;
+  margin: 40px;
+  font-size: 18px;
+  font-weight: bold;
 }
-
+.voffset-lg q {
+  font-style: italic;
+}
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -438,6 +442,8 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .mg-lg {
@@ -679,12 +685,12 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .tight-width-whitespace {
   max-width: 600px;
-  margin: auto auto auto auto;
+  margin: auto;
 }
 
 .h1 {
@@ -755,7 +761,8 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: #f3976c;
+  /* background-color: rgba(165, 147, 99, 0.7); */
   padding: 40px 40px 40px 40px;
 }
 
@@ -777,7 +784,7 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
@@ -1008,9 +1015,6 @@ h4 {
   }
   .voffset-md {
     margin-top: 20px;
-  }
-  .voffset-lg {
-    margin-top: 30px;
   }
   form {
     padding: 5px;
