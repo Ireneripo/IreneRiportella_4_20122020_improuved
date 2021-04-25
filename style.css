@@ -18,14 +18,14 @@ a:hover {
   cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+/* #page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
   bottom: 0;
   width: 100%;
   z-index: 100000;
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-}
+} */
 
 .bloc {
   width: 100%;
@@ -40,8 +40,8 @@ a:hover {
 }
 
 .bloc .container {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .bloc-lg {
@@ -216,7 +216,7 @@ a:hover {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
-.d-bloc .panel .a-btn,
+/* .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -232,9 +232,9 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
   color: rgba(0, 0, 0, 0.6);
-}
+} */
 
-.d-bloc .panel .a-btn:hover,
+/* .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
@@ -250,11 +250,11 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
   color: rgba(0, 0, 0, 1);
-}
+} */
 
-.l-bloc .navbar-toggle .icon-bar {
+/* .l-bloc .navbar-toggle .icon-bar {
   color: rgba(0, 0, 0, 0.6);
-}
+} */
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
@@ -364,6 +364,17 @@ a:hover {
   float: right;
   position: relative;
   z-index: 2;
+}
+
+.notre-equipe {
+  background-color: brown;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+}
+
+.notre-equipe a {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -666,14 +677,6 @@ a {
   max-width: 1000px;
 }
 
-.hero-bloc-text {
-  font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-  font-size: 36px;
-}
-
 .statement-bloc-text {
   line-height: 26px;
   font-style: italic;
@@ -731,7 +734,7 @@ h3 {
 }
 
 h1 {
-  color: #ffffff !important;
+  color: white !important;
   font-weight: bold;
 }
 
@@ -745,7 +748,7 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .portfolio-thumb {
@@ -769,11 +772,11 @@ h4 {
 
 .bold-link {
   font-weight: 900;
-  text-decoration: underline !important;
 }
 
 .bgc-white {
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 .bgc-dark-slate-blue {
@@ -785,12 +788,12 @@ h4 {
 }
 
 .tc-white {
-  color: #ffffff !important;
+  color: white !important;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -803,7 +806,7 @@ h4 {
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: black !important;
 }
 
 .ltc-atomic-tangerine {
