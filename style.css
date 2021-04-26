@@ -18,14 +18,14 @@ a:hover {
   cursor: pointer;
 }
 
-/* #page-loading-blocs-notifaction {
+#page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
   bottom: 0;
   width: 100%;
   z-index: 100000;
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-} */
+}
 
 .bloc {
   width: 100%;
@@ -90,10 +90,10 @@ a:hover {
   right: 0;
 }
 
-/* .texture-paper::before {
+.texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
-} */
+}
 
 .b-parallax {
   background-attachment: fixed;
@@ -216,7 +216,7 @@ a:hover {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
-/* .d-bloc .panel .a-btn,
+.d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -232,9 +232,9 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
   color: rgba(0, 0, 0, 0.6);
-} */
+}
 
-/* .d-bloc .panel .a-btn:hover,
+.d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
@@ -250,11 +250,11 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
   color: rgba(0, 0, 0, 1);
-} */
+}
 
-/* .l-bloc .navbar-toggle .icon-bar {
+.l-bloc .navbar-toggle .icon-bar {
   color: rgba(0, 0, 0, 0.6);
-} */
+}
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
@@ -329,7 +329,7 @@ a:hover {
 .nav > li {
   float: left;
   margin-top: 4px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -370,7 +370,8 @@ a:hover {
   background-color: brown;
   padding: 15px;
   border: none;
-  border-radius: 25px;
+  border-radius: 50px;
+  font-size: 0.7em;
 }
 
 .notre-equipe a {
@@ -671,6 +672,7 @@ a {
   font-family: "helvetica";
   font-weight: 400;
   color: black !important;
+  font-size: 1.2em;
 }
 
 .container {
@@ -687,8 +689,11 @@ a {
   margin: auto auto auto auto;
 }
 
+.contact-title {
+  font-size: 2em;
+}
 p {
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 .tight-width-whitespace {
@@ -716,7 +721,7 @@ p {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 1.6em;
   line-height: 1.4em;
 }
 
@@ -749,6 +754,7 @@ h4 {
 
 .white {
   color: black !important;
+  font-size: 1.3em;
 }
 
 .portfolio-thumb {
