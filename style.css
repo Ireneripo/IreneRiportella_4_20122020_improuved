@@ -379,6 +379,15 @@ a:hover {
   text-decoration: none;
 }
 
+.row-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-formulaire {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -528,6 +537,7 @@ button {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  width: 100%;
 }
 
 .scrollToTop {
@@ -801,6 +811,7 @@ h4 {
 .btn-atomic-tangerine {
   background: #f3976c;
   color: black !important;
+  margin-bottom: 30px;
 }
 
 .btn-atomic-tangerine:hover {
